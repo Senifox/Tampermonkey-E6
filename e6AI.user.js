@@ -32,7 +32,7 @@ function clickVoteUpButton() {
 
 function handleKeyPress(event) {
     if (event.key.toLowerCase() === "f") {
-        clickAddFavButton();
+        //clickAddFavButton();
         clickVoteUpButton();
     }
 }
