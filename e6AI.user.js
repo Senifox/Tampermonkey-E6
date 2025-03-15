@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         e6AI
 // @namespace    http://tampermonkey.net/
-// @version      2025-03-15 21:59
+// @version      2025-03-15
 // @description  Functions for e6AI / e621
 // @author       Seni
 // @match        https://e6ai.net/posts/*
