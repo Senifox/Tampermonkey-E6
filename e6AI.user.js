@@ -36,17 +36,16 @@ function handleKeyPress(event) {
 
 function setAutoplay() {
   const video = document.querySelector("video");
-  if (video) {
-      video.autoplay = true;
-      video.muted = true;
-      video.loop = true;
-      video.play();
-  }
+  if (video == null)
+    return;
+
+  video.autoplay = true;
+  video.muted = true;
+  video.loop = true;
+  video.play();
 }
 
 // Event Listener
+setAutoplay();
 document.addEventListener("keydown", handleKeyPress);
 document.getElementById("add-fav-button")?.addEventListener("click", clickVoteUpButton);
-document.addEventListener("DOMContentLoaded", function() {
-  setAutoplay();
-});
